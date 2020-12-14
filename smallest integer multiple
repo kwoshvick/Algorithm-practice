@@ -1,0 +1,6 @@
+
+# Give an positive integer n, find out the smallest integer m,
+# such that all digits in m multiply equals to n. For example,
+# n = 36, return 49. n = 72, return 89. You can assume there
+# is no overflow
+
