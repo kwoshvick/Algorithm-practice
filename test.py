@@ -1,18 +1,7 @@
 
-# Give a positive integer n, find out the smallest integer m,
-# such that all digits in m multiply equals to n. For example,
-# n = 36, return 49. n = 72, return 89. You can assume there
-# is no overflow
+m = [1,2,3,4,25,12,5,2,5,10,85]
+z = [5,2,10]
 
-def getSmallestMultiple(product):
-    multipleList = []
-    for number in range(1,10):
-        for multipler in range(1,10):
-            if(number*multipler) == product:
-                multipleList.append(str(number)+str(multipler))
+p = [m.index(i) for i in z ]
 
-    return multipleList
-
-
-
-print(getSmallestMultiple(36)[0])
+print(p)
